@@ -36,3 +36,37 @@ nav form,
     justify-content: space-between;
     align-items: center;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+nav ul a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+nav form {
+    margin-right: 2em;
+}
+
+nav form input {
+    background: transparent;
+    color: #fff;
+    width: 12em;
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+}
+
+nav form input::placeholder {
+    color: #fff;
+}
+
