@@ -158,3 +158,22 @@ header::after {
     margin: 2em 0 3em 0;
     max-width: 45em;
 }
+
+.btn {
+    padding: 0.7em 1.5em;
+    background: #a3be52;
+    border-radius: 3em;
+    letter-spacing: 1px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #6e9623;
+}
+
+.body > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
